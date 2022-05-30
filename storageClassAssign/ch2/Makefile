@@ -1,4 +1,4 @@
-ROOT_DIR = /home/chitroda/Desktop/UdemyTrain/Practise/Advanced_C/storageClass/staticType
+ROOT_DIR = /home/chitroda/Desktop/UdemyTrain/Practise/Advanced_C/storageClassAssign/ch2
 ROOT_NAME = main
 
 ROOT_FILE = $(ROOT_DIR)/$(ROOT_NAME).c
