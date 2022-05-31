@@ -1,5 +1,4 @@
-//Print first five number using child process &
-//next five numbers using parent process.
+//write value to pipe from child process, and read value from pipe by using parent process.
 
 #include<stdio.h>
 #include<unistd.h>
