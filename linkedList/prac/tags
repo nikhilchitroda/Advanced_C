@@ -1,0 +1,92 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+FALSE	bk2_main.c	/^#define FALSE /;"	d	file:
+FALSE	bk3_main.c	/^#define FALSE /;"	d	file:
+FALSE	bk4_main.c	/^#define FALSE /;"	d	file:
+FALSE	bk_main.c	/^#define FALSE /;"	d	file:
+FALSE	main.c	/^#define FALSE /;"	d	file:
+TRUE	bk2_main.c	/^#define TRUE /;"	d	file:
+TRUE	bk3_main.c	/^#define TRUE /;"	d	file:
+TRUE	bk4_main.c	/^#define TRUE /;"	d	file:
+TRUE	bk_main.c	/^#define TRUE /;"	d	file:
+TRUE	main.c	/^#define TRUE /;"	d	file:
+addNode	bk2_main.c	/^int addNode(int value)$/;"	f	typeref:typename:int
+addNode	bk3_main.c	/^int addNode(int value)$/;"	f	typeref:typename:int
+addNode	bk4_main.c	/^int addNode(int value)$/;"	f	typeref:typename:int
+addNode	bk_main.c	/^int addNode(int value)$/;"	f	typeref:typename:int
+addNode	main.c	/^int addNode(int value)$/;"	f	typeref:typename:int
+addNodeAtBeginning	bk2_main.c	/^int addNodeAtBeginning()$/;"	f	typeref:typename:int
+addNodeAtBeginning	bk3_main.c	/^int addNodeAtBeginning()$/;"	f	typeref:typename:int
+addNodeAtBeginning	bk4_main.c	/^int addNodeAtBeginning()$/;"	f	typeref:typename:int
+addNodeAtBeginning	bk_main.c	/^int addNodeAtBeginning()$/;"	f	typeref:typename:int
+addNodeAtBeginning	main.c	/^int addNodeAtBeginning()$/;"	f	typeref:typename:int
+addNodeAtEnd	bk2_main.c	/^void addNodeAtEnd()$/;"	f	typeref:typename:void
+addNodeAtEnd	bk3_main.c	/^int addNodeAtEnd()$/;"	f	typeref:typename:int
+addNodeAtEnd	bk4_main.c	/^int addNodeAtEnd()$/;"	f	typeref:typename:int
+addNodeAtEnd	bk_main.c	/^void addNodeAtEnd()$/;"	f	typeref:typename:void
+addNodeAtEnd	main.c	/^int addNodeAtEnd()$/;"	f	typeref:typename:int
+addNodeAtPartiPoint	bk3_main.c	/^int addNodeAtPartiPoint()$/;"	f	typeref:typename:int
+addNodeAtPartiPoint	bk4_main.c	/^int addNodeAtPartiPoint()$/;"	f	typeref:typename:int
+addNodeAtPartiPoint	main.c	/^int addNodeAtPartiPoint()$/;"	f	typeref:typename:int
+addNodeAtPertPoint	bk2_main.c	/^int addNodeAtPertPoint()$/;"	f	typeref:typename:int
+addNodeAtPertPoint	bk_main.c	/^int addNodeAtPertPoint()$/;"	f	typeref:typename:int
+choice	bk2_main.c	/^int choice()$/;"	f	typeref:typename:int
+choice	bk3_main.c	/^int choice()$/;"	f	typeref:typename:int
+choice	bk4_main.c	/^int choice()$/;"	f	typeref:typename:int
+choice	bk_main.c	/^int choice()$/;"	f	typeref:typename:int
+choice	main.c	/^int choice()$/;"	f	typeref:typename:int
+countAllNodes	bk2_main.c	/^int countAllNodes(int *countPtr)$/;"	f	typeref:typename:int
+countAllNodes	bk3_main.c	/^int countAllNodes(int *countPtr)$/;"	f	typeref:typename:int
+countAllNodes	bk4_main.c	/^int countAllNodes(int *countPtr)$/;"	f	typeref:typename:int
+countAllNodes	bk_main.c	/^int countAllNodes(int &allCount)$/;"	f	typeref:typename:int
+countAllNodes	main.c	/^int countAllNodes(int *countPtr)$/;"	f	typeref:typename:int
+createList	bk2_main.c	/^int createList()$/;"	f	typeref:typename:int
+createList	bk3_main.c	/^int createList()$/;"	f	typeref:typename:int
+createList	bk4_main.c	/^int createList()$/;"	f	typeref:typename:int
+createList	bk_main.c	/^int createList()$/;"	f	typeref:typename:int
+createList	main.c	/^int createList()$/;"	f	typeref:typename:int
+data	bk2_main.c	/^	int data;$/;"	m	struct:node	typeref:typename:int	file:
+data	bk3_main.c	/^	int data;$/;"	m	struct:node	typeref:typename:int	file:
+data	bk4_main.c	/^	int data;$/;"	m	struct:node	typeref:typename:int	file:
+data	bk_main.c	/^	int data;$/;"	m	struct:node	typeref:typename:int	file:
+data	main.c	/^	int data;$/;"	m	struct:node	typeref:typename:int	file:
+deleteTheNode	bk2_main.c	/^void deleteTheNode()$/;"	f	typeref:typename:void
+deleteTheNode	bk3_main.c	/^int deleteTheNode()$/;"	f	typeref:typename:int
+deleteTheNode	bk4_main.c	/^int deleteTheNode()$/;"	f	typeref:typename:int
+deleteTheNode	bk_main.c	/^void deleteTheNode()$/;"	f	typeref:typename:void
+deleteTheNode	main.c	/^int deleteTheNode()$/;"	f	typeref:typename:int
+head	bk2_main.c	/^}*head=NULL, *tail=NULL;$/;"	v	typeref:struct:node *
+head	bk3_main.c	/^}*head=NULL, *tail=NULL;$/;"	v	typeref:struct:node *
+head	bk4_main.c	/^}*head=NULL, *tail=NULL;$/;"	v	typeref:struct:node *
+head	bk_main.c	/^}*head=NULL, *tail=NULL;$/;"	v	typeref:struct:node *
+head	main.c	/^}*head=NULL, *tail=NULL;$/;"	v	typeref:struct:node *
+main	bk2_main.c	/^int main()$/;"	f	typeref:typename:int
+main	bk3_main.c	/^int main()$/;"	f	typeref:typename:int
+main	bk4_main.c	/^int main()$/;"	f	typeref:typename:int
+main	bk_main.c	/^int main()$/;"	f	typeref:typename:int
+main	main.c	/^int main()$/;"	f	typeref:typename:int
+node	bk2_main.c	/^struct node$/;"	s	file:
+node	bk3_main.c	/^struct node$/;"	s	file:
+node	bk4_main.c	/^struct node$/;"	s	file:
+node	bk_main.c	/^struct node$/;"	s	file:
+node	main.c	/^struct node$/;"	s	file:
+printList	bk2_main.c	/^int printList()$/;"	f	typeref:typename:int
+printList	bk3_main.c	/^int printList()$/;"	f	typeref:typename:int
+printList	bk4_main.c	/^int printList()$/;"	f	typeref:typename:int
+printList	bk_main.c	/^int printList()$/;"	f	typeref:typename:int
+printList	main.c	/^int printList()$/;"	f	typeref:typename:int
+ptr	bk2_main.c	/^	struct node *ptr;$/;"	m	struct:node	typeref:struct:node *	file:
+ptr	bk3_main.c	/^	struct node *ptr;$/;"	m	struct:node	typeref:struct:node *	file:
+ptr	bk4_main.c	/^	struct node *ptr;$/;"	m	struct:node	typeref:struct:node *	file:
+ptr	bk_main.c	/^	struct node *ptr;$/;"	m	struct:node	typeref:struct:node *	file:
+ptr	main.c	/^	struct node *ptr;$/;"	m	struct:node	typeref:struct:node *	file:
+searchNode	bk2_main.c	/^void searchNode()$/;"	f	typeref:typename:void
+searchNode	bk3_main.c	/^void searchNode()$/;"	f	typeref:typename:void
+searchNode	bk4_main.c	/^int searchNode()$/;"	f	typeref:typename:int
+searchNode	bk_main.c	/^void searchNode()$/;"	f	typeref:typename:void
+searchNode	main.c	/^int searchNode()$/;"	f	typeref:typename:int

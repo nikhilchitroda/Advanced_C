@@ -285,43 +285,9 @@ int deleteTheNode()
 	return rc;
 }
 
-int searchNode()
+void searchNode()
 {
-	int rc=0, count=0, reqLoc=0, loop=1;
-        struct node *tmp=NULL;
-        
-	do
-        {
-		rc = countAllNodes(&count);
-		if(rc!=0)
-		{
-			printf("Error, while counting all nodes\n");
-			rc=1;
-			break;
-		}
-		printf("Enter which node data you want [1-%d]: ", count);
-		while(1)
-		{
-			scanf("%d", &reqLoc);
-			if(reqLoc > count)
-			{
-				printf("Please, Enter valid node location in between [1-%d]: ", count);
-				continue;
-			}
-			else
-			{
-				tmp=head;
-				while(loop < reqLoc)
-				{
-					tmp=tmp->ptr;
-					loop++;
-				}
-				printf("Value at node-%d is: %d\n", reqLoc, tmp->data);
-				break;
-			}
-		}	
-	}while(FALSE);
-	return rc;
+
 }
 
 int choice()
@@ -334,7 +300,7 @@ int choice()
 	printf("5. Add node at the end\n");
 	printf("6. Delete the particular node\n");
 	printf("7. Count of total no of nodes\n");
-	printf("8. Search the node data value\n");
+	printf("8. Serach the node data value\n");
 	printf("9. Exit\n");
 	printf("\nEnter you choice: ");
 	scanf("%d", &choice);
@@ -376,11 +342,7 @@ int choice()
                         }
 			break;
 
-		case 6:	rc = deleteTheNode();
-			if(rc!=0)
-                        {
-                                printf("Error, while deleting node the node\n");
-                        }
+		case 6:	deleteTheNode();
 			break;
 		
 		case 7: rc = countAllNodes(&countNode);
@@ -391,11 +353,7 @@ int choice()
 			printf("Total number of node count is: %d\n", countNode);
 			break;
 
-		case 8:	rc = searchNode();
-			if(rc!=0)
-                        {
-                                printf("Error, while counting nodes\n");
-                        }
+		case 8:	searchNode();
 			break;
 
 		case 9: exit(0);
