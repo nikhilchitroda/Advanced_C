@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+FALSE	main.c	/^#define FALSE /;"	d	file:
+TRUE	main.c	/^#define TRUE /;"	d	file:
+addNode	main.c	/^int addNode(int value)$/;"	f	typeref:typename:int
+choice	main.c	/^int choice()$/;"	f	typeref:typename:int
+countStackMembers	main.c	/^int countStackMembers(int *memberCount)$/;"	f	typeref:typename:int
+data	main.c	/^	int data;$/;"	m	struct:node	typeref:typename:int	file:
+main	main.c	/^int main()$/;"	f	typeref:typename:int
+node	main.c	/^struct node$/;"	s	file:
+peekElement	main.c	/^int peekElement()$/;"	f	typeref:typename:int
+popElement	main.c	/^int popElement()$/;"	f	typeref:typename:int
+printStackMembers	main.c	/^int printStackMembers()$/;"	f	typeref:typename:int
+ptr	main.c	/^	struct node *ptr;$/;"	m	struct:node	typeref:struct:node *	file:
+pushElement	main.c	/^int pushElement()$/;"	f	typeref:typename:int
+top	main.c	/^}*top=NULL;$/;"	v	typeref:struct:node *
